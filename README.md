@@ -27,3 +27,6 @@ css: Direktori untuk file-file stylesheet. <br>
 style.css: File stylesheet utama proyek. <br>
 js: Direktori untuk file-file JavaScript. <br>
 app.js: File JavaScript utama dari proyek Anda. <br>
+
+#Menampilkan Data 
+index.html

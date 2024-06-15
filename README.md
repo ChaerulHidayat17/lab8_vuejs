@@ -4,21 +4,15 @@ Untuk memulai penggunaan framework Vue.js, Anda dapat melakukannya dengan menggu
 Library Vue.js
 Anda dapat menyertakan Vue.js dalam proyek Anda dengan menambahkan baris berikut di dalam tag <head> atau sebelum tag penutup </body> di file HTML Anda:
 
-html
-Salin kode
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 Library Axios
 Sertakan Axios dalam proyek Anda dengan menambahkan baris berikut di dalam tag <head> atau sebelum tag penutup </body> di file HTML Anda:
 
-html
-Salin kode
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 Struktur Direktori Proyek
 Untuk memulai proyek dengan basis web sederhana, Anda dapat mengatur struktur direktori seperti berikut:
 
-markdown
-Salin kode
-.
+.<br>
 ├── index.html<br>
 └── assets<br>
     ├── css<br>

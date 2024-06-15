@@ -32,7 +32,6 @@ app.js: File JavaScript utama dari proyek Anda. <br>
 File = index.html <br>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +40,6 @@ File = index.html <br>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <div id="app">
         <h1>Daftar Artikel</h1>
@@ -51,18 +49,11 @@ File = index.html <br>
                 <span class="close" @click="showForm = false">&times;</span>
                 <form id="form-data" @submit.prevent="saveData">
                     <h3 id="form-title">{{ formTitle }}</h3>
-
-                    <div><input type="text" name="judul" id="judul" v- model="formData.judul" placeholder="Judul"
-                            required></div>
-
-                    <div><textarea name="isi" id="isi" rows="10" v- model="formData.isi"></textarea></div>
-
+                    <div><input type="text" name="judul" id="judul" v-model="formData.judul" placeholder="Judul" required></div>
+                    <div><textarea name="isi" id="isi" rows="10" v-model="formData.isi"></textarea></div>
                     <div>
-
-                        <select name="status" id="status" v- model="formData.status">
-
+                        <select name="status" id="status" v-model="formData.status">
                             <option v-for="option in statusOptions" :value="option.value">
-
                                 {{ option.text }}
                             </option>
                         </select>
@@ -97,5 +88,5 @@ File = index.html <br>
     </div>
     <script src="assets/js/app.js"></script>
 </body>
-
 </html>
+

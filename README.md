@@ -1,21 +1,29 @@
-Persiapan
-Untuk memulai penggunaan framework Vuejs, dapat dialkukan dengan menggunakan npm,
-atau bisa juga dengan cara manual. Untuk praktikum kali ini kita akan gunakan cara manual.
-Yang diperlukan adalah library Vuejs, Axios untuk melakukan call API REST. Menggunakan
-CDN.
-Library VueJS
+Persiapan Penggunaan Vue.js dan Axios
+Untuk memulai penggunaan framework Vue.js, Anda dapat melakukannya dengan menggunakan npm atau secara manual. Dalam praktikum kali ini, kita akan menggunakan metode manual. Yang Anda perlukan adalah library Vue.js dan Axios untuk melakukan panggilan API REST, menggunakan CDN.
+
+Library Vue.js
+Anda dapat menyertakan Vue.js dalam proyek Anda dengan menambahkan baris berikut di dalam tag <head> atau sebelum tag penutup </body> di file HTML Anda:
+
+html
+Salin kode
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 Library Axios
+Sertakan Axios dalam proyek Anda dengan menambahkan baris berikut di dalam tag <head> atau sebelum tag penutup </body> di file HTML Anda:
+
+html
+Salin kode
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<br>
 Struktur Direktori Proyek
 Untuk memulai proyek dengan basis web sederhana, Anda dapat mengatur struktur direktori seperti berikut:
 
-├── index.html
-└── assets
-    ├── css
-    │   └── style.css
-    └── js
+markdown
+Salin kode
+.
+├── index.html<br>
+└── assets<br>
+    ├── css<br>
+    │   └── style.css<br>
+    └── js<br>
         └── app.js
 Dalam struktur direktori ini, Anda memiliki:
 

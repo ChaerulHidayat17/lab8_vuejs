@@ -21,9 +21,9 @@ Untuk memulai proyek dengan basis web sederhana, Anda dapat mengatur struktur di
         └── app.js
 Dalam struktur direktori ini, Anda memiliki:
 
-index.html: File utama HTML dari proyek Anda.
-assets: Direktori untuk menyimpan semua aset proyek.
-css: Direktori untuk file-file stylesheet.
-style.css: File stylesheet utama proyek.
-js: Direktori untuk file-file JavaScript.
-app.js: File JavaScript utama dari proyek Anda.
+index.html: File utama HTML dari proyek Anda. <br>
+assets: Direktori untuk menyimpan semua aset proyek. <br>
+css: Direktori untuk file-file stylesheet. <br>
+style.css: File stylesheet utama proyek. <br>
+js: Direktori untuk file-file JavaScript. <br>
+app.js: File JavaScript utama dari proyek Anda. <br>
